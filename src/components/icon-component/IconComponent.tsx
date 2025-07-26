@@ -9,11 +9,23 @@ import styles from './IconComponent.module.css'
  * @param legend the name of the link (displayed underneath)
  * @returns TSX
  */
-export function IconComponent({img, legend}: {img: string, legend: string}) {  
+export function IconComponent({img, legend, for_}: {img: string, legend: string, for_: 'file' | 'desktop'}): React.JSX.Element {  
+
+    let style_class = styles['column']
+
+    if(for_ == 'file') {
+        style_class = styles['row']
+    } else {
+        style_class = styles['column']
+    }
+
     return (
-        <span className={styles['wrapper']}>
-            <img src={img} alt='ICON'/>
-            <span>{legend}</span>
-        </span>
+       <div className={style_class}>
+            <span className={styles['wrapper']}>
+                <img width="50px" height="50px" src={img} alt='ICON'/>
+                <span>{legend}</span>
+            </span>
+       </div> 
     )
+    
 }

@@ -1,11 +1,11 @@
 
 {
-	"project-name" : "Douzhee",
+	"project_name" : "Douzhee",
 	"status" : "completed",
 	"created" : "December 2024",
 	"finished" : "April 2025",
-	"repo-link" : "https://forge.univ-lyon1.fr/p2205400/douzhee",
-	"iut-c" : {
+	"repo_link" : "https://forge.univ-lyon1.fr/p2205400/douzhee",
+	"iut_skills" : {
 		"C1" : 12,
 		"C2" : 12,
 		"C3" : 12,
@@ -34,18 +34,18 @@
 	], 
 	"body" : [
 		{
-			"section-header" : "Raison d'être",
-			"section-contents" : "Douzhee est un jeu de dés qui se veut être une reprise du jeu historique Yahtzee (page Wiki Yahtzee). Avec 4 camarades, dans le cadre d'un projet libre en IUT (2e année) nous avons programmé ce projet from scratch."
+			"section_header" : "Raison d'être",
+			"section_contents" : "Douzhee est un jeu de dés qui se veut être une reprise du jeu historique Yahtzee (page Wiki Yahtzee). Avec 4 camarades, dans le cadre d'un projet libre en IUT (2e année) nous avons programmé ce projet from scratch."
 		},
 		
 		{
-			"section-header" : "Choix technologiques",
-			"section-contents" : "Nous avons choisi d'utiliser HTML, CSS, PHP et JS pour créer ce projet. Nous avons jugé qu'en vue du volume de notre projet -même en le faisant uniquement en technologies natives- assumer une courbe d'apprentissage supplémentaire n'était pas le bon moment pour en tirer un apprentissage dans de bonnes conditions."
+			"section_header" : "Choix technologiques",
+			"sectionè_contents" : "Nous avons choisi d'utiliser HTML, CSS, PHP et JS pour créer ce projet. Nous avons jugé qu'en vue du volume de notre projet -même en le faisant uniquement en technologies natives- assumer une courbe d'apprentissage supplémentaire n'était pas le bon moment pour en tirer un apprentissage dans de bonnes conditions."
 		},
 		
 		{
-			"section-header" : "Gestion de projet",
-			"section-contents" : "En tant que moyen de communication, nous avons choisi une communication quotidienne via un serveur discord séparé en différentes catégories (projet, Git, avancements, questions techniques) et en différentes chaînes. Nous donnons aussi beaucoup de valeur à la communication orale, qui était quotidienne. Nous avons utilisé Git pour le versionnage de notre projet, et utilisé des conventions de nommage GitFlow pour plus de clarté de lecture dans le groupe."
+			"section_header" : "Gestion de projet",
+			"section_contents" : "En tant que moyen de communication, nous avons choisi une communication quotidienne via un serveur discord séparé en différentes catégories (projet, Git, avancements, questions techniques) et en différentes chaînes. Nous donnons aussi beaucoup de valeur à la communication orale, qui était quotidienne. Nous avons utilisé Git pour le versionnage de notre projet, et utilisé des conventions de nommage GitFlow pour plus de clarté de lecture dans le groupe."
 		}
 	],
 	"footer" : ""

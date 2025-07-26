@@ -13,3 +13,13 @@
     background-color: blue;
     padding: 2px;
 }
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}

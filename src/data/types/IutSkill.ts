@@ -1,4 +1,3 @@
-
 export interface IUT_skill {
     C1: number,
     C2: number,

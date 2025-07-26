@@ -1,22 +1,20 @@
 
 import style from './SectionComponent.module.css' 
-import { type Section, type sectionJSON } from '../../data/types/Section'
-import { SectionConverter } from '../../data/types/Type_converters'
+import { type Section } from '../../data/types/Section'
 
 /**
  * A component made to display basic texts from Section JSONs
  * @param data the JSON description of a section. 
  * @returns TSX
  */
-export function SectionComponent({data}:{data:sectionJSON}){
-    const section: Section = SectionConverter(data)
+export function SectionComponent({data}:{data:Section}){
     return (
         <div>
             <h2 className={style['section-header']}>
-                {section.section_header}
+                {data.section_header}
             </h2>
             <div className={style['section-contents']}>
-                {section.section_contents}
+                {data.section_contents}
             </div>
         </div>
     )
