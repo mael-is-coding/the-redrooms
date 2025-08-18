@@ -1,0 +1,40 @@
+
+
+.window {
+    border: solid 3px #c0c0c0;
+    background-color: #c0c0c0;
+    color: black;
+    width: 400px;
+    height: 600px;
+    overflow-y: scroll;
+    position: absolute;
+    z-index: 10;
+}
+
+*::selection {
+    background-color: transparent;
+    color: inherit;
+}
+
+nav {
+    background-color: #000080;
+    border: solid 2px #c0c0c0;
+    color: white;
+
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.split {
+    display: flex;
+    float: right;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+main {
+    background-color: #c0c0c0;
+}

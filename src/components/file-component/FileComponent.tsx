@@ -1,19 +1,24 @@
 
 import React from 'react'
-import type { FileType } from '../../data/types/FileType'
+import type { TextFile } from '../../data/types/TextFile'
 import styles from './FileComponent.module.css'
-import { IconComponent } from '../icon-component/IconComponent'
 import { SectionComponent } from '../section-component/SectionComponent'
+import { getIcon } from '../../utils/IconGetter'
 
-export function FileComponent({data}:{data:FileType}): React.JSX.Element {
+
+export function FileComponent({data}:{data:TextFile}): React.JSX.Element {
 
     const sections = data.sections
 
     return (
         <article>
-            <div className={styles['header']}>
-                <IconComponent img="some link" legend="" for_ = "file"></IconComponent>
-            </div>
+            <div className={styles['header']}>{
+                getIcon(
+                    data.file_type,
+                    data.file_name,
+                    "desktop"
+                )    
+            }</div>
 
             <span className={styles['file-title']}>{data.header}</span>
 

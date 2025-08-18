@@ -1,4 +1,4 @@
-export interface IUT_skill {
+export interface Iut_C {
     C1: number,
     C2: number,
     C3: number,

@@ -1,7 +1,7 @@
 
-.section-header {
-    font-size: 30px;
-    font-weight: bold;
+.window {
+    background-color: #c0c0c0;
+    color: black;
 }
 
 .section-contents {

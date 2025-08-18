@@ -1,11 +1,17 @@
-
 {
+	"file_type" : "executable",
 	"project_name" : "Douzhee",
-	"status" : "completed",
-	"created" : "December 2024",
-	"finished" : "April 2025",
-	"repo_link" : "https://forge.univ-lyon1.fr/p2205400/douzhee",
-	"iut_skills" : {
+	"status" : "standby",
+	"created" : "February 2025",
+	"finished" : "June 2025",
+	"explanation" : [
+		{
+			"section_header" : "Raison d'être du projet",
+			"section_contents" : "Douzhee est un jeu ludique fait par moi-même et 3 de mes collègues en IUT dans le cadre d'un projet universitaire sur une durée d'un an. Nous avons choisi de reproduire le jeu Yahtzee car nous voulons faire quelque chose d'amusant et qui encourage la réflexion."
+		}
+	],
+	"repo_link" : "https://douzhee.fr",
+	"iut_c" : {
 		"C1" : 12,
 		"C2" : 12,
 		"C3" : 12,
@@ -15,38 +21,27 @@
 	},
 	"technologies" : [
 		{
-			"tech" : "PHP",
-			"field" : "database",
-			"end" : "back"
+			"tech" : "JavaScript",
+			"field" : "web",
+			"end" : "front"
 		},
 
 		{
-			"tech" : "JavaScript",
-			"field" : "web", 
-			"end" : "hybrid" 
-		},
-		
-		{
-			"tech" : "HTML & CSS",
+			"tech" : "PHP",
 			"field" : "web",
-			"end" : "front"
+			"end" : "back"
+		},
+		{
+			"tech" : "SQL",
+			"field" : "web",
+			"end" : "back"
 		}
 	], 
 	"body" : [
 		{
-			"section_header" : "Raison d'être",
-			"section_contents" : "Douzhee est un jeu de dés qui se veut être une reprise du jeu historique Yahtzee (page Wiki Yahtzee). Avec 4 camarades, dans le cadre d'un projet libre en IUT (2e année) nous avons programmé ce projet from scratch."
-		},
-		
-		{
 			"section_header" : "Choix technologiques",
-			"sectionè_contents" : "Nous avons choisi d'utiliser HTML, CSS, PHP et JS pour créer ce projet. Nous avons jugé qu'en vue du volume de notre projet -même en le faisant uniquement en technologies natives- assumer une courbe d'apprentissage supplémentaire n'était pas le bon moment pour en tirer un apprentissage dans de bonnes conditions."
-		},
-		
-		{
-			"section_header" : "Gestion de projet",
-			"section_contents" : "En tant que moyen de communication, nous avons choisi une communication quotidienne via un serveur discord séparé en différentes catégories (projet, Git, avancements, questions techniques) et en différentes chaînes. Nous donnons aussi beaucoup de valeur à la communication orale, qui était quotidienne. Nous avons utilisé Git pour le versionnage de notre projet, et utilisé des conventions de nommage GitFlow pour plus de clarté de lecture dans le groupe."
+			"section_contents" : "Nous avons choisi JS et PHP natif au lieu de frameworks comme React car nous avons préféré nous focaliser sur les fonctionnalités (dont la quantité et le niveau étaient déjà ambitieux). De plus nous avons pu apprendre les fonctionnement du Web tel qu'on l'a connu longtemps, et cela nous permet de comprendre tout le nécessaire pour les frameworks, leurs avantages et défauts."
 		}
 	],
-	"footer" : ""
+	"footer" : "..."
 }

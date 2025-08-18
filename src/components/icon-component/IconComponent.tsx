@@ -9,7 +9,7 @@ import styles from './IconComponent.module.css'
  * @param legend the name of the link (displayed underneath)
  * @returns TSX
  */
-export function IconComponent({img, legend, for_}: {img: string, legend: string, for_: 'file' | 'desktop'}): React.JSX.Element {  
+export function IconComponent({img, legend, for_, callback}: {img: string, legend: string, for_: 'file' | 'desktop',  callback: ()=>void}): React.JSX.Element {  
 
     let style_class = styles['column']
 
@@ -20,7 +20,8 @@ export function IconComponent({img, legend, for_}: {img: string, legend: string,
     }
 
     return (
-       <div className={style_class}>
+       <div className={style_class}
+       onDoubleClick={callback}>
             <span className={styles['wrapper']}>
                 <img width="50px" height="50px" src={img} alt='ICON'/>
                 <span>{legend}</span>

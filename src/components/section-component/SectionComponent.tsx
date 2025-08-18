@@ -9,7 +9,7 @@ import { type Section } from '../../data/types/Section'
  */
 export function SectionComponent({data}:{data:Section}){
     return (
-        <div>
+        <div className={style['window']}>
             <h2 className={style['section-header']}>
                 {data.section_header}
             </h2>

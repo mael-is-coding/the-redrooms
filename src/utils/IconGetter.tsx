@@ -1,7 +1,7 @@
 
 import { IconComponent } from '../components/icon-component/IconComponent'
 
-export function getIcon(icon_name: string, legend: string, for_: 'file' | 'desktop'): React.JSX.Element {
+export function getIcon(icon_name: string, legend: string, for_: 'file' | 'desktop', callback: () => void): React.JSX.Element {
     switch (icon_name) {
         case 'java':
             return (
@@ -9,6 +9,7 @@ export function getIcon(icon_name: string, legend: string, for_: 'file' | 'deskt
                 img='../assets/icons/java.png'
                 legend={legend}
                 for_={for_}
+                callback={callback}
                 ></IconComponent>
             )
 
@@ -19,6 +20,7 @@ export function getIcon(icon_name: string, legend: string, for_: 'file' | 'deskt
                 img='../assets/icons/c.png'
                 legend={legend}
                 for_={for_}
+                callback={callback}
                 ></IconComponent>
             )
 
@@ -28,6 +30,7 @@ export function getIcon(icon_name: string, legend: string, for_: 'file' | 'deskt
                 img='../assets/icons/js.png'
                 legend='java'
                 for_={for_}
+                callback={callback}
                 ></IconComponent>
             )
 
@@ -37,6 +40,7 @@ export function getIcon(icon_name: string, legend: string, for_: 'file' | 'deskt
                 img='../assets/icons/ts.png'
                 legend={legend}
                 for_={for_}
+                callback={callback}
                 ></IconComponent>
             )
 
@@ -46,6 +50,7 @@ export function getIcon(icon_name: string, legend: string, for_: 'file' | 'deskt
                 img='../assets/icons/angular.png'
                 legend={legend}
                 for_={for_}
+                callback={callback}
                 ></IconComponent>
             )
         
@@ -56,6 +61,7 @@ export function getIcon(icon_name: string, legend: string, for_: 'file' | 'deskt
                 img='../assets/icons/unk.png'
                 legend={legend}
                 for_='file'
+                callback={callback}
                 >
                 </IconComponent>
             )
