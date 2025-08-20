@@ -25,7 +25,7 @@ export function Desktop() {
                 all_files.map((file) => 
                     getIcon(
                         file.file_icon, 
-                        file.project_name, 
+                        file.file_name, 
                         "desktop", 
                         function event() {
                             of_context.run_file(file)

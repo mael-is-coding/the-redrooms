@@ -3,8 +3,10 @@ import { AreaChart, Area, Tooltip, XAxis, YAxis } from "recharts";
 import { useState, useContext } from 'react';
 import type { Iut_C } from "../../data/types/Iut_C";
 import { OpenedFileContext } from "../../contexts/opened-file-context/OpenedFileContext";
+import minimize from '../../assets/icons/system_icons/minimize.svg';
+import close from '../../assets/icons/system_icons/close_cross.svg';
 import styles from './TaskManager.module.css';
-import TaskMgr from '../../assets/icons/TaskMgr.svg'
+import TaskMgr from '../../assets/icons/TaskMgr.svg';
 
 export function TaskManager() {
 
@@ -13,7 +15,6 @@ export function TaskManager() {
     const [mouseStartX, setMouseStartX] = useState(0)
     const [mouseStartY, setMouseStartY] = useState(0)
     const [down, setDown] = useState(false)
-    const [focus, setFocus] = useState(of_ctx?.unfocusedZ)
         
     const [vertical, setVertical] = useState(0) // the AAT value of "top"
     const [horizontal, setHorizontal] = useState(0) // the AAT value of "left"
@@ -53,15 +54,13 @@ export function TaskManager() {
  
 
     of_ctx?.all_files.map((file) => {
-            for(const c of file.iut_c) {
-                all_skills[c.C - 1].value += c.value
+            if (file.file_type == 'executable') {
+                for(const c of file.iut_c) {
+                    all_skills[c.C - 1].value += c.value
+                }
             }
         }
     )
-
-    console.clear()
-    console.log(of_ctx?.all_files)
-    console.log(all_skills)
 
     return (
         <div
@@ -73,7 +72,7 @@ export function TaskManager() {
                 setMouseStartY(event.clientY) 
 
                 if(of_ctx) {
-                    setFocus(of_ctx?.focusedZ)
+                    // set focus
                 }
             }}
 
@@ -92,7 +91,7 @@ export function TaskManager() {
                 setDown(false)
 
                 if(of_ctx) {
-                    setFocus(of_ctx.unfocusedZ)
+                    // remove focus
                 }
             }}
 
@@ -102,9 +101,7 @@ export function TaskManager() {
 
             style={{
                 top: vertical,
-                left: horizontal,
-                zIndex: focus,
-                display: 'block'
+                left: horizontal
             }}
         >
 
@@ -114,9 +111,17 @@ export function TaskManager() {
                     <span>Gestionnaire de compét. IUT</span>
                 </div>
 
-                <div className={styles['split']}>
-                    <span>-</span>
-                    <span>X</span>
+                <div className={styles['bar-actions']}>
+                    <img id={styles['minimize']} src={minimize} alt="-" 
+                    onClick={() => {
+                        alert('Fonctionnalité non implémentée.')
+                    }}
+                    />
+                    <img id={styles['close']} src={close} alt="X" 
+                    onClick={() => {
+                        alert('Fonctionnalité non implémentée.')
+                    }}
+                    />
                 </div>
             </nav>
 

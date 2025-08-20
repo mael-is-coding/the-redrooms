@@ -1,6 +1,7 @@
 {
 	"file_type" : "executable",
 	"file_icon" : "Douzhee",
+	"file_name" : "Douzhee",
 	"project_name" : "Douzhee",
 	"status" : "standby",
 	"created" : "Février 2025",
@@ -11,7 +12,7 @@
 			"section_contents" : "Douzhee est un jeu ludique fait par moi-même et 3 de mes collègues en IUT dans le cadre d'un projet universitaire sur une durée d'un an. Nous avons choisi de reproduire le jeu Yahtzee car nous voulons faire quelque chose d'amusant et qui encourage la réflexion."
 		}
 	],
-	"repo_link" : "https://douzhee.fr",
+	"repo_link" : "https://forge.univ-lyon1.fr/p2205400/douzhee",
 	"iut_c" : [
 		{
 			"C" : 1,
@@ -68,5 +69,5 @@
 			"section_contents" : "Nous avons choisi JS et PHP natif au lieu de frameworks comme React car nous avons préféré nous focaliser sur les fonctionnalités (dont la quantité et le niveau étaient déjà ambitieux). De plus nous avons pu apprendre les fonctionnement du Web tel qu'on l'a connu longtemps, et cela nous permet de comprendre tout le nécessaire pour les frameworks, leurs avantages et défauts."
 		}
 	],
-	"footer" : "..."
+	"footer" : ""
 }

@@ -2,6 +2,7 @@
 	"file_type" : "executable",
 	"file_icon" : "java",
 	"project_name" : "Conflictu air",
+	"file_name": "Conflictu air",
 	"status" : "finished",
 	"created" : "Février 2024",
 	"finished" : "Juin 2024",
@@ -62,5 +63,5 @@
 			"section_contents" : "Nous avons choisi JS et PHP natif au lieu de frameworks comme React car nous avons préféré nous focaliser sur les fonctionnalités (dont la quantité et le niveau étaient déjà ambitieux). De plus nous avons pu apprendre les fonctionnement du Web tel qu'on l'a connu longtemps, et cela nous permet de comprendre tout le nécessaire pour les frameworks, leurs avantages et défauts."
 		}
 	],
-	"footer" : "..."
+	"footer" : ""
 }

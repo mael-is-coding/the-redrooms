@@ -3,21 +3,22 @@ import { SectionComponent } from "../../components/section-component/SectionComp
 import type { ExecutableFile } from "../../data/types/ExecutableFile";
 import styles from "./Executable.module.css"
 import { OpenedFileContext } from "../../contexts/opened-file-context/OpenedFileContext";
+import minimize from "../../assets/icons/system_icons/minimize.svg"
+import close from "../../assets/icons/system_icons/close_cross.svg"
 
 
 export function Executable({data}: {data: ExecutableFile}) {
-
-    const iframe_link: string = (data.i_frame ? data.i_frame : data.repo_link)
 
     const of_ctx = useContext(OpenedFileContext)
 
     const [mouseStartX, setMouseStartX] = useState(0)
     const [mouseStartY, setMouseStartY] = useState(0)
     const [down, setDown] = useState(false)
-    const [focus, setFocus] = useState(of_ctx?.unfocusedZ)
     
     const [vertical, setVertical] = useState(0) // the AAT value of "top"
     const [horizontal, setHorizontal] = useState(0) // the AAT value of "left"
+
+    const [display, setDisplay] = useState<'block' | 'none'>('block')
 
     return (
         <div 
@@ -29,7 +30,7 @@ export function Executable({data}: {data: ExecutableFile}) {
                 setMouseStartY(event.clientY) 
 
                 if(of_ctx) {
-                    setFocus(of_ctx?.focusedZ)
+                    // set focus to 'true' here
                 }
             }}
 
@@ -48,7 +49,7 @@ export function Executable({data}: {data: ExecutableFile}) {
                 setDown(false)
 
                 if(of_ctx) {
-                    setFocus(of_ctx.unfocusedZ)
+                    // set focus to 'false'
                 }
             }}
 
@@ -59,7 +60,7 @@ export function Executable({data}: {data: ExecutableFile}) {
             style={{
                 top: vertical,
                 left: horizontal,
-                zIndex: focus
+                display: display
             }}
             >
 
@@ -67,8 +68,16 @@ export function Executable({data}: {data: ExecutableFile}) {
                 <span className={styles['window-title']}>{data.project_name}</span>
 
                 <div className={styles['split']}>
-                    <span>-</span>
-                    <span>X</span>
+                    <img id={styles['minimize']} src={minimize} alt="-" 
+                    onClick={() => {
+                        setDisplay('none')
+                    }}
+                    />
+                    <img id={styles['close']} src={close} alt="X"
+                    onClick={() => {
+                        of_ctx?.close_file(data)
+                    }}
+                    />
                 </div>
             </nav>
 
@@ -86,8 +95,9 @@ export function Executable({data}: {data: ExecutableFile}) {
                 )
             }</span>
 
-            <h2>Aperçu de {data.project_name}</h2>
-            <iframe src={iframe_link} title={data.project_name} width="400px" height="300px"></iframe>
+            <h2>Pour avoir un aperçu de {data.project_name}</h2>
+            <a href={data.repo_link}>regardez par ici !</a>
+            <p></p><p></p>
 
             <b>Technologies principales :</b>
             <div>{

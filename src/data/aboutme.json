@@ -1,0 +1,32 @@
+{
+    "file_type" : "text",
+    "file_name" : "Moi-même !",
+    "file_icon" : "cosmos",
+    "header" : "à propos de moi",
+    "sections" :[
+        {
+            "section_header" : "Qui suis-je ?",
+            "section_contents" : "Bien le bonjour ! Je m'appelle Maël Salem, étudiant en BUT informatique. Ce site personnel est là pour vous montrer qui je suis, et mes compétences. N'hésitez à me dire ce que vous en pensez ! (mes informations de contact sont en bas de page :D )"
+        },
+
+        {
+            "section_header" : "Plus qu'un travai, une passion",
+            "section_contents" : "J'adore l'informatique ! C'est un domaine où les choses à savoir sont infinies, et il n'y a pas assez de temps dans ma vie pour apprendre tout ce qui pique ma curiosité dans ce domaine ! Ce domaine me laisse donner libre cours à ma créativité et me permet de résoudre des problèmes toujours plus intéressants - ce que j'aime beaucoup."
+        },
+
+        {
+            "section_header" : "Me contacter",
+            "section_contents" : "Vous pouvez me contacter de plusieurs manières !",
+            "uls" : [
+                {
+                    "list_title" : "Les voici :) :",
+                    "list" : [
+                        "Mail : maelsalem@outlook.com",
+                        "Discord : cosmos9448",
+                        "Instagram : @mael_is_spacing_out"
+                    ]
+                }
+            ]
+        }
+    ]
+}

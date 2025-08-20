@@ -4,11 +4,10 @@
     gap : 5px;
     align-content: center;
     color: white;
-    padding: 3vh;
     font-size: 12px;
 }
 
-.image-and-caption:hover {
+.column .image-and-caption:hover {
     background-color: #382dff1a;
 }
 
@@ -23,6 +22,7 @@
     max-width: min-content;
     align-items: center;
     justify-content: center;
+    padding: 3vh;
 }
 
 .column .caption {

@@ -1,0 +1,96 @@
+{
+	"file_type" : "executable",
+	"file_icon" : "akretion",
+	"file_name" : "Stage Akretion",
+	"project_name" : "Stage Akretion",
+	"status" : "finished",
+	"created" : "Mai 2025",
+	"finished" : "Aout 2025",
+	"explanation" : [
+		{
+			"section_header" : "Ma mission",
+            "section_contents" : "C'était une mission de type PoC. Je devais développer un prototype de tableau de bord dynamique en utilisant Shiny for Python (framework de dashboarding web réactif) qui devait fonctionner extérieurement à Odoo (ERP Open Source belge). Mon maître de stage devait ensuite pouvoir reprendre le développement de cette application à mon départ pour l'améliorer. Elle répond à une frustration que certains clients ont à propos du Dashboardind Odoo, et même s'il n'y a pas encore d'investisseur pour permettre un investissement de temps complet, continuer le développement de l'application n'est pas insensé du tout.",
+            "uls" : [
+                {
+                    "list_title" : "J'ai, entre autres :",
+                    "list" : [
+                        "Fait une connexion entre Python et une base de données PostgreSQL.",
+                        "Appris à développer des tableaux de bords dynamiques en Shiny for Python.",
+                        "Évolué dans un écosystème Python (notamment avec le packaging, outils de propreté).",
+                        "Appris les bases du fonctionnement d'Odoo."
+                    ]
+                }
+            ]
+        }
+	],
+	"repo_link" : "https://github.com/akretion/shinyboard",
+	"iut_c" : [
+		{
+			"C" : 1,
+			"title" : "Réaliser un développement d'application",
+			"value" : 6
+		},
+		{
+			"C" : 2,
+			"title" : "Optimiser des applications informatiques",
+			"value" : 4
+		},
+		{
+			"C" : 3,
+			"title" : "Administrer des systèmes informatiques communicants complexes",
+			"value" : 2
+		},
+		{
+			"C" : 4,
+			"title" : "Gérer des données de l'information",
+			"value" : 5
+		},
+		{
+			"C" : 5,
+			"title" : "Conduire un projet",
+			"value" : 1
+		},
+		{
+			"C" : 6,
+			"title" : "Travailler dans une équipe informatique",
+			"value" : 2
+		}
+	],
+	"technologies" : [
+        {
+            "tech" : "Shiny for Python",
+            "field" : "web",
+            "end" : "front"
+        },
+		{
+			"tech" : "Python",
+			"field" : "software",
+			"end" : "hybrid"
+		},
+
+        {
+            "tech" : "PostgreSQL",
+            "field" : "database",
+            "end" : "back"
+        },
+
+        {
+            "tech" : "Kubuntu Linux",
+            "field" : "sys",
+            "end" : "back"
+        },
+
+        {
+            "tech" : "Git",
+			"field" : "software",
+			"end" : "hybrid"
+        }
+	], 
+	"body" : [
+		{
+			"section_header" : "Choix technologiques",
+			"section_contents" : "Shiny for Python a été choisi par mon maître de stage car la stack principale d'Akretion est Python et son écosystème. Le projet devait être reprenable facilement par ce dernier."
+		}
+	],
+	"footer" : ""
+}

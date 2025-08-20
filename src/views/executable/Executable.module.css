@@ -9,6 +9,11 @@
     overflow-y: scroll;
     position: absolute;
     z-index: 10;
+
+    border-bottom: solid 1px rgb(86, 86, 86);
+    border-right: solid 1px rgb(86, 86, 86);
+    border-top: solid 1.5px white;
+    border-left: solid 1.5px white;
 }
 
 *::selection {
@@ -37,7 +42,19 @@ nav {
     float: right;
     flex-direction: row;
     justify-content: space-between;
-    gap: 5px;
+    gap: 15px;
+}
+
+.split img {
+    width: 10px;
+    padding: 5px;
+}
+
+#close, #minimize {
+    background-color: var(--window-color);
+    border-bottom: solid 1px rgb(86, 86, 86);
+    border-right: solid 1px rgb(86, 86, 86);
+    border-top: solid 1px white;
 }
 
 main {

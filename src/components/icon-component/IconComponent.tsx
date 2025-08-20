@@ -31,6 +31,28 @@ export function IconComponent({img, legend, for_, callback}: {img: string, legen
         ht = 40
     }
 
+    if(for_ == 'bar') {
+        return (
+            <div className={container_class}
+                onClick={callback}
+                >
+                <div className={styles['image-and-caption']}>
+                    <img src={img} alt='ICON'
+                    style={{
+                        background: bg,
+                        width: `${wd}px`,
+                        height: `${ht}px`
+                    }}
+                    />
+                    <span className={styles['caption']}
+                    style={{
+                        color: color,
+                    }}
+                    >{legend}</span>
+                </div>
+            </div>
+        )
+    }
     return (
         <div className={container_class}
             onDoubleClick={callback}

@@ -12,10 +12,14 @@
     position: fixed;
     left: 0;
     bottom: 0;
-
 }
 
 .tasks-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.row {
     display: flex;
     flex-direction: row;
 }

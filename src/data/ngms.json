@@ -1,6 +1,7 @@
 {
 	"file_type" : "executable",
 	"file_icon" : "angular",
+	"file_name" : "MS",
 	"project_name" : "MS",
 	"status" : "finished",
 	"created" : "Mars 2025",
@@ -69,5 +70,5 @@
 			"section_contents" : "J'ai choisi Angular car c'est une technologie qui offre beaucoup de philosophies (mécaniques de services, de contrats à remplir, d'injection de dépendances...). Alpine m'a été utile car j'ai tenté d'héberger mon site sur un de mes vieux ordinateurs. Je n'ai cependant pas pu le faire en raison de problèmes techniques et de problèmes de sécurité (comme éviter les attaques DDOS ou scan de ports)."
 		}
 	],
-	"footer" : "..."
+	"footer" : ""
 }

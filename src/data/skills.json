@@ -1,0 +1,95 @@
+{
+    "file_type" : "skills",
+    "file_name" : "Explorateur de compétences",
+    "file_icon" : "file_explorer",
+    "hard_skills" : [
+        {
+			"tech" : "Java",
+			"field" : "software",
+			"end" : "hybrid"
+		},
+        {
+			"tech" : "Angular",
+			"field" : "web",
+			"end" : "front"
+		},
+
+        {
+            "tech" : "React",
+            "field" : "web",
+            "end" : "front"
+        },
+
+        {
+            "tech" : "Vue",
+            "field" : "web",
+            "end" : "front"
+        },
+
+        {
+            "tech" : "Symfony",
+            "field" : "web",
+            "end" : "back"
+        },
+
+
+        {
+            "tech" : "Nest",
+            "field" : "web",
+            "end" : "back"
+        },
+
+        {
+            "tech" : "Git",
+			"field" : "software",
+			"end" : "hybrid"
+        },
+        {
+            "tech" : "ShinyPython",
+            "field" : "web",
+            "end" : "front"
+        },
+
+        		{
+			"tech" : "Python",
+			"field" : "software",
+			"end" : "hybrid"
+		},
+
+        {
+            "tech" : "PostgreSQL",
+            "field" : "database",
+            "end" : "back"
+        },
+
+        {
+            "tech" : "C",
+            "field" : "software",
+            "end" : "hybrid"
+        }
+
+
+    ],
+    "soft_skills" : [
+        {
+            "soft_skill": "Curiosité",
+            "icon_name": "file_explorer" 
+        },
+        {
+            "soft_skill": "Créativité",
+            "icon_name": "painting_bucket"
+        },
+        {
+            "soft_skill" : "Travail d'équipe",
+            "icon_name" : "handshake"
+        },
+        {
+            "soft_skill" : "Perséverance",
+            "icon_name" : "fire"
+        },
+        {
+            "soft_skill": "Sociabilité",
+            "icon_name" : "heart"
+        }
+    ]
+}

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools -->
+
+<svg
+   width="800px"
+   height="800px"
+   viewBox="0 -0.5 8 8"
+   version="1.1"
+   fill="#ffffff"
+   id="svg1"
+   sodipodi:docname="close_cross.svg"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:zoom="0.96625"
+     inkscape:cx="399.48254"
+     inkscape:cy="400"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <g
+     id="SVGRepo_bgCarrier"
+     stroke-width="0" />
+  <g
+     id="SVGRepo_tracerCarrier"
+     stroke-linecap="round"
+     stroke-linejoin="round" />
+  <g
+     id="SVGRepo_iconCarrier">
+    <title
+       id="title1">close_mini [#1522]</title>
+    <desc
+       id="desc1">Created with Sketch.</desc>
+    <defs
+       id="defs1" />
+    <g
+       id="Page-1"
+       stroke="none"
+       stroke-width="1"
+       fill="none"
+       fill-rule="evenodd">
+      <g
+         id="Dribbble-Light-Preview"
+         transform="translate(-385.000000, -206.000000)"
+         fill="#ffffff">
+        <g
+           id="icons"
+           transform="translate(56.000000, 160.000000)">
+          <polygon
+             id="close_mini-[#1522]"
+             points="334.6 49.5 337 51.6 335.4 53 333 50.9 330.6 53 329 51.6 331.4 49.5 329 47.4 330.6 46 333 48.1 335.4 46 337 47.4" />
+        </g>
+      </g>
+    </g>
+  </g>
+  <path
+     style="fill:#000000;stroke-width:1.95577"
+     d="M 81.241915,680.30955 C 37.981889,642.4602 2.2343162,611.15011 1.8028645,610.73155 1.3714128,610.31299 54.696122,563.00362 120.30222,505.59962 185.90832,448.19561 239.58603,400.677 239.58603,400.0027 c 0,-0.6743 -52.85899,-47.45152 -117.46443,-103.94937 C 57.516171,239.55547 3.8472214,192.55245 2.8572723,191.60216 1.1620567,189.97488 5.4589582,186.02281 76.731447,123.65647 118.3522,87.236614 154.11854,55.964759 156.21223,54.163457 l 3.8067,-3.275093 119.90437,104.911276 c 65.94741,57.7012 120.176,104.74278 120.508,104.53683 0.332,-0.20594 54.36636,-47.41615 120.07637,-104.91156 l 119.47274,-104.537109 3.80703,3.275375 c 2.09386,1.801456 37.86036,33.073438 79.48111,69.493294 71.27249,62.36634 75.56939,66.31841 73.87418,67.94569 -0.98995,0.95029 -54.6589,47.95331 -119.26433,104.45117 C 613.27296,352.55118 560.41397,399.32718 560.41397,400 c 0,0.67282 52.85899,47.44882 117.46443,103.94667 64.60543,56.49786 118.27438,103.50088 119.26433,104.45117 1.69521,1.62728 -2.60169,5.57935 -73.87418,67.94569 -41.62075,36.41985 -77.38709,67.69171 -79.48078,69.49301 l -3.8067,3.2751 L 520.04871,644.17588 C 415.90567,553.05509 399.90433,539.42125 398.50579,540.61593 c -2.01967,1.72528 -233.71484,204.1659 -236.53943,206.67323 -2.02473,1.79732 -3.78452,0.33716 -80.724445,-66.97961 z"
+     id="path2"
+     transform="matrix(0.01,0,0,0.01,0,-0.5)" />
+</svg>
