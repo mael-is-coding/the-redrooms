@@ -4,9 +4,10 @@ import type { OF_CTX } from "./OF_CTX";
 
 // data imports
 import douzhee from '../../data/douzhee.json'
+import ngms from '../../data/ngms.json'
+import conflictuair from '../../data/conclituair.json'
 
-
-export const OpenedFileContext = createContext<OF_CTX | undefined>(undefined)
+export const OpenedFileContext = createContext<OF_CTX | undefined>(undefined) //eslint-disable-line
 
 export function OpenedFileContextProvider({children}: {children:React.JSX.Element}) {
 
@@ -26,7 +27,7 @@ export function OpenedFileContextProvider({children}: {children:React.JSX.Elemen
     return (
         <OpenedFileContext.Provider
         value={{
-            all_files: [douzhee],
+            all_files: [douzhee, ngms, conflictuair],
             file_list: FileList,
             set_file_list: setFileList,
             set_focused: set_focused,

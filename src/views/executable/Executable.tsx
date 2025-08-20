@@ -67,18 +67,14 @@ export function Executable({data}: {data: ExecutableFile}) {
                 <span className={styles['window-title']}>{data.project_name}</span>
 
                 <div className={styles['split']}>
-                    <span>Minimize</span>
-                    <span>Maximize</span>
+                    <span>-</span>
                     <span>X</span>
                 </div>
             </nav>
 
             <h1>{data.project_name}</h1>
-
-            <span>Horizontal : {horizontal}</span><br />
-            <span>Vertical : {vertical}</span><br />
             
-            <span className={styles['created']}>started at {
+            <span className={styles['created']}>commencé en {
                 data.created
             }</span>
 
@@ -90,19 +86,10 @@ export function Executable({data}: {data: ExecutableFile}) {
                 )
             }</span>
 
-            <h2>Preview of {data.project_name}</h2>
-            <iframe src={iframe_link} title={data.project_name} width="300px" height="300px"></iframe>
+            <h2>Aperçu de {data.project_name}</h2>
+            <iframe src={iframe_link} title={data.project_name} width="400px" height="300px"></iframe>
 
-
-            <div className={styles['skills']}>
-                <div>C1 : {data.iut_c.C1}</div>
-                <div>C2 : {data.iut_c.C2}</div>
-                <div>C3 : {data.iut_c.C3}</div>
-                <div>C4 : {data.iut_c.C4}</div>
-                <div>C5 : {data.iut_c.C5}</div>
-                <div>C6 : {data.iut_c.C6}</div>
-            </div>
-
+            <b>Technologies principales :</b>
             <div>{
                 data.technologies.map((t) =>
                     <span>{t.tech}; </span>

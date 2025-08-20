@@ -1,66 +1,60 @@
 {
 	"file_type" : "executable",
-	"file_icon" : "Douzhee",
-	"project_name" : "Douzhee",
-	"status" : "standby",
-	"created" : "Février 2025",
-	"finished" : "Avril 2025",
+	"file_icon" : "java",
+	"project_name" : "Conflictu air",
+	"status" : "finished",
+	"created" : "Février 2024",
+	"finished" : "Juin 2024",
 	"explanation" : [
 		{
 			"section_header" : "Raison d'être du projet",
-			"section_contents" : "Douzhee est un jeu ludique fait par moi-même et 3 de mes collègues en IUT dans le cadre d'un projet universitaire sur une durée d'un an. Nous avons choisi de reproduire le jeu Yahtzee car nous voulons faire quelque chose d'amusant et qui encourage la réflexion."
-		}
+			"section_contents" : "Conflictu'air est un projet de gestion et de visualisation du système aérien français. Il a été fait dans le cadre de l'IUT avec deux autres de mes camarades."
+        }
 	],
 	"repo_link" : "https://douzhee.fr",
 	"iut_c" : [
 		{
 			"C" : 1,
 			"title" : "Réaliser un développement d'application",
-			"value" : 6
+			"value" : 0
 		},
 		{
 			"C" : 2,
 			"title" : "Optimiser des applications informatiques",
-			"value" : 2
+			"value" : 0
 		},
 		{
 			"C" : 3,
 			"title" : "Administrer des systèmes informatiques communicants complexes",
-			"value" : 2
+			"value" : 0
 		},
 		{
 			"C" : 4,
 			"title" : "Gérer des données de l'information",
-			"value" : 5
+			"value" : 0
 		},
 		{
 			"C" : 5,
 			"title" : "Conduire un projet",
-			"value" : 3
+			"value" : 0
 		},
 		{
 			"C" : 6,
 			"title" : "Travailler dans une équipe informatique",
-			"value" : 2
+			"value" : 0
 		}
 	],
 	"technologies" : [
 		{
-			"tech" : "JavaScript",
+			"tech" : "Java",
 			"field" : "web",
 			"end" : "front"
 		},
-
-		{
-			"tech" : "PHP",
-			"field" : "web",
-			"end" : "back"
-		},
-		{
-			"tech" : "SQL",
-			"field" : "web",
-			"end" : "back"
-		}
+        {
+            "tech" : "Git",
+			"field" : "software",
+			"end" : "hybrid"
+        }
 	], 
 	"body" : [
 		{

@@ -4,6 +4,8 @@ import { getComponent } from "../../utils/ComponentGetter"
 import './Desktop.module.css'
 import { OpenedFileContext } from "../../contexts/opened-file-context/OpenedFileContext"
 import { getIcon } from "../../utils/IconGetter"
+import { TaskbarComponent } from "../../components/taskbar-component/TaskbarComponent"
+import { TaskManager } from "../task-manager/TaskManager"
 
 export function Desktop() {
 
@@ -18,10 +20,11 @@ export function Desktop() {
                         getComponent(running_file)
                     )  
                 }
+                <TaskManager />
                 {// all files : they appear as icons on the desktop
                 all_files.map((file) => 
                     getIcon(
-                        file.technologies[0].tech, 
+                        file.file_icon, 
                         file.project_name, 
                         "desktop", 
                         function event() {
@@ -29,7 +32,9 @@ export function Desktop() {
                         }
                     )
                 )
-            }</main>
+            }
+            <TaskbarComponent />
+            </main>
         )
     }
 }

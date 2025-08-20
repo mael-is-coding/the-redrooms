@@ -1,0 +1,73 @@
+{
+	"file_type" : "executable",
+	"file_icon" : "angular",
+	"project_name" : "MS",
+	"status" : "finished",
+	"created" : "Mars 2025",
+	"finished" : "Juin 2025",
+	"explanation" : [
+		{
+			"section_header" : "Raison d'être du projet",
+			"section_contents" : "La première version de portfolio que j'ai faite était en Angular. Je trouvais cette technologie intéressante et philosophiquement riche. A cet époque, je ne connaissais que Symfony x Twig en tant que framework, et je voulais commencer avec la technologie la plus complexe pour avoir le plus de connaissances possibles."
+        }
+	],
+	"repo_link" : "https://ng-ms.vercel.app/",
+	"iut_c" : [
+		{
+			"C" : 1,
+			"title" : "Réaliser un développement d'application",
+			"value" : 3
+		},
+		{
+			"C" : 2,
+			"title" : "Optimiser des applications informatiques",
+			"value" : 2
+		},
+		{
+			"C" : 3,
+			"title" : "Administrer des systèmes informatiques communicants complexes",
+			"value" : 4
+		},
+		{
+			"C" : 4,
+			"title" : "Gérer des données de l'information",
+			"value" : 5
+		},
+		{
+			"C" : 5,
+			"title" : "Conduire un projet",
+			"value" : 1
+		},
+		{
+			"C" : 6,
+			"title" : "Travailler dans une équipe informatique",
+			"value" : 0
+		}
+	],
+	"technologies" : [
+		{
+			"tech" : "Angular",
+			"field" : "web",
+			"end" : "front"
+		},
+
+        {
+            "tech" : "Git",
+			"field" : "software",
+			"end" : "hybrid"
+        },
+
+		{
+			"tech" : "Alpine Linux",
+			"field" : "sys",
+			"end" : "back"
+		}
+	], 
+	"body" : [
+		{
+			"section_header" : "Choix technologiques",
+			"section_contents" : "J'ai choisi Angular car c'est une technologie qui offre beaucoup de philosophies (mécaniques de services, de contrats à remplir, d'injection de dépendances...). Alpine m'a été utile car j'ai tenté d'héberger mon site sur un de mes vieux ordinateurs. Je n'ai cependant pas pu le faire en raison de problèmes techniques et de problèmes de sécurité (comme éviter les attaques DDOS ou scan de ports)."
+		}
+	],
+	"footer" : "..."
+}
