@@ -1,4 +1,4 @@
-main {
+.main {
     background-color: #008080;
     color: white;
     font-family: 'Courier New', Courier, monospace;
@@ -8,4 +8,3 @@ main {
     display: grid;
     grid-template-columns: auto auto auto auto auto;
 }
-
