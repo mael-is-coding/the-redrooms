@@ -1,7 +1,7 @@
 
 import { useContext } from "react"
 import { getComponent } from "../../utils/ComponentGetter"
-import { styles } from './Desktop.module.css'
+import styles from './Desktop.module.css'
 import { OpenedFileContext } from "../../contexts/opened-file-context/OpenedFileContext"
 import { getIcon } from "../../utils/IconGetter"
 import { TaskbarComponent } from "../../components/taskbar-component/TaskbarComponent"
