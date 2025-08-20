@@ -1,5 +1,5 @@
-.main {
-    background-color: #008080;
+main {
+    background-color: var(--desktop-color);
     color: white;
     font-family: 'Courier New', Courier, monospace;
     width: 100vw;

@@ -1,7 +1,7 @@
 
 import { useContext } from "react"
 import { getComponent } from "../../utils/ComponentGetter"
-import styles from './Desktop.module.css'
+import './Desktop.module.css'
 import { OpenedFileContext } from "../../contexts/opened-file-context/OpenedFileContext"
 import { getIcon } from "../../utils/IconGetter"
 import { TaskbarComponent } from "../../components/taskbar-component/TaskbarComponent"
@@ -14,7 +14,7 @@ export function Desktop() {
 
     if (all_files) {
         return (
-            <main className={styles['']}>
+            <main>
                 {// all running files : they appear as absolute positionned windows
                 of_context.file_list.map((running_file) =>
                         getComponent(running_file)
